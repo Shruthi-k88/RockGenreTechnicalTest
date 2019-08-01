@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockGenreTracks", "RockGenreTracks\RockGenreTracks.csproj", "{28924AE4-2BF1-4046-AC97-8244BD0A41DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28924AE4-2BF1-4046-AC97-8244BD0A41DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28924AE4-2BF1-4046-AC97-8244BD0A41DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28924AE4-2BF1-4046-AC97-8244BD0A41DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28924AE4-2BF1-4046-AC97-8244BD0A41DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7F0ABBE-01D4-4D77-83BC-DA88E954F4F1}
+	EndGlobalSection
+EndGlobal

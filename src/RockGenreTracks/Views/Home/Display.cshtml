@@ -1,0 +1,37 @@
+﻿@model IEnumerable<RockGenreTracks.Models.TrackComposerViewModel>
+
+@{
+    ViewBag.Title = "Rock Genre";
+}
+
+<h2>Rock Genre Tracks and Composers List</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Tracks)
+        </th>        
+        <th>
+            @Html.DisplayNameFor(model => model.Composers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Genre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tracks)
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.Composers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Genre)
+        </td>        
+    </tr>
+}
+
+</table>
